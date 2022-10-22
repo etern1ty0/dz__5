@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+  }
+  body {
+    background: #f2f2f2;
+    overflow: auto;
+  }
+  h1 {
+    text-align: center;
+    margin: 5%;
+    font-size: 3 rem;
+    text-decoration: underline;
+  }
+  ul {
+    text-align: left;
+    padding-left: 10%;
+    padding: 7%;
+    font-size: 2 rem;
+    list-style: circle;
+  }
+  li:hover {
+    color: red;
+   
+    transition: 1.5 s ease;
+    cursor: pointer;
+  }
+  .row {
+    justify-content: center;
+    text-decoration: none;
+  }
+  .form-group {
+    text-align: center;
+    width: 100px;
+  }
+  .delete{
+    background-color: red;
+  }
